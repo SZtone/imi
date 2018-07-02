@@ -3,6 +3,8 @@ use Imi\Server\Type;
 
 // 注释项代表可省略的，使用默认值
 return [
+	// 项目根命名空间
+	'namespace'	=>	'ImiDemo\HttpDemo',
 	// 扫描目录
 	'beanScan'	=>	[
 		'ImiDemo\HttpDemo\Listener',
@@ -16,9 +18,9 @@ return [
 		// 'mode'		=>	SWOOLE_BASE,
 		// 'sockType'	=>	SWOOLE_SOCK_TCP,
 		'configs'	=>	[
-			'reactor_num'		=>	8,
-			'worker_num'		=>	8,
-			'task_worker_num'	=>	128,
+			'reactor_num'		=>	2,
+			'worker_num'		=>	2,
+			'task_worker_num'	=>	8,
 		],
 	],
 	// 子服务器（端口监听）配置

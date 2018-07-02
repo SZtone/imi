@@ -1,0 +1,17 @@
+{
+	"require": {
+		"yurunsoft/imi": "dev-dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"ImiDemo\\": "./"
+		}
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "D:\\projects\\imi"
+		}
+	],
+	"minimum-stability": "dev"
+}

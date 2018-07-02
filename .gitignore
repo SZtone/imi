@@ -2,3 +2,4 @@
 /cache
 /*.lock
 /vendor
+/HttpDemo/bin/*.pid

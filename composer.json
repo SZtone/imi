@@ -1,11 +1,10 @@
 {
 	"require": {
-		"yurunsoft/imi": "0.*"
+		"yurunsoft/imi": "v0.0.3"
 	},
     "autoload": {
         "psr-4" : {
 			"ImiDemo\\" : "./"
         }
-	},
-	"minimum-stability": "dev"
+	}
 }
