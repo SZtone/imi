@@ -1,5 +1,4 @@
-/session
-/cache
-/*.lock
 /vendor
-/HttpDemo/bin/*.pid
+/*.log
+/*.lock
+/.runtime

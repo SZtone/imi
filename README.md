@@ -1,16 +1,15 @@
 # imi-demo
 
-## 介绍
+## 使用说明
 
-IMI 框架的 Demo
+* 本 Demo 命名空间为 `ImiApp\`，你可以自行修改为自己项目的名称
+* 修改完所有文件中的命名空间后，记得重新更新`composer`文件
 
-git 拉取下来后执行`composer update`
+运行服务`bin/imi server/start`
 
-运行服务`HttpDemo/bin/imi server/start`
+命令行工具`bin/imi 工具名称`
 
-命令行工具`HttpDemo/bin/imi 工具名称`
-
-命令行帮助`HttpDemo/bin/imi -h`
+命令行帮助`bin/imi -h`
 
 ## 代码仓库
 
