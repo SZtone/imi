@@ -11,6 +11,22 @@
 
 命令行帮助`bin/imi -h`
 
+## 目录结构
+
+```
+├─.runtime          —— 运行时有文件生成在这
+├─ApiServer         —— api 服务器
+│  ├─config         —— api 服务器配置目录
+│  └─Controller     —— 控制器
+├─bin               —— 项目可执行文件
+├─config            —— 项目配置
+├─logs              —— 日志
+├─Modules           —— 模块
+   └─Test           —— 模块名
+       ├─Model      —— 模块-模型
+       └─Service    —— 模块-服务层（你也可以自定义其他名字，没有硬性规定）
+```
+
 ## 代码仓库
 
 码云：https://gitee.com/yurunsoft/IMI
