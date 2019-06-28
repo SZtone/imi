@@ -134,6 +134,7 @@ return [
     'db'    =>    [
         // 数默认连接池名
         'defaultPool'    =>    'maindb',
+
     ],
 
     // redis 配置
